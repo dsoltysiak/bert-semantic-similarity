@@ -1,8 +1,8 @@
 # BERT Semantic Text Similarity
 
-This repository contains fine-tuned [BERT](https://github.com/google-research/bert) model for Semantic Text Similarity (STS). It's based on the BERT-base-uncased model and the implementation is done using Tensorflow and Keras. The aim of this model is to find the type of semantic similarity given two similar sentences.
+This repository contains fine-tuned [BERT](https://github.com/google-research/bert) model for Semantic Text Similarity (STS). It's based on the BERT-base-uncased model and the implementation is done using Tensorflow and Keras. This model aims to find the type of semantic similarity given two similar sentences.
 
-The dataset used for this project is [The Stanford Natural Language Inference (SNLI) Corpus](https://nlp.stanford.edu/projects/snli/). It consists of english sentence-pairs with the labels entailment, contradiction and neutral.
+The dataset used for this project is [The Stanford Natural Language Inference (SNLI) Corpus](https://nlp.stanford.edu/projects/snli/). It consists of english sentence-pairs with the labels entailment, contradiction, and neutral.
 
 ## Installation
 
@@ -43,3 +43,6 @@ The predictive performance of the model can be characterized by the table below.
 ## References
 * [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
 * [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
